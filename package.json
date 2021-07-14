@@ -1,0 +1,21 @@
+{
+  "name": "yemekapp",
+  "version": "1.0.0",
+  "main": "yemek_server.js",
+  "scripts": {
+    "watch": "nodemon yemekapp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.10",
+    "nodemon": "^2.0.9",
+    "sanitize-html": "^2.4.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
