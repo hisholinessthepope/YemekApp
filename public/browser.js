@@ -7,7 +7,7 @@ function itemTemplate(item){
     <td class = "Ogle">${item.ogle}</td>
     <td class = "Aksam">${item.aksam}</td>
     <td>
-      <button data-id="${item._id}" class = "editbutton">Düzenle</button>
+      <button data-id="${item._id}" class = "editbutton">Düzenle</button><br><br>
       <button data-id="${item._id}" class = "deletebutton">Sil</button>
     </td>
     </tr>
