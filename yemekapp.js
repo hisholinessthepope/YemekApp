@@ -109,7 +109,7 @@ app.get('/', function(req, res) {
                 <th class= "tableTitle" id= "yemek-history_th">Aksam</th>
                 <th class= "tableTitle" id= "yemek-history_th">Secenekler</th>
               </tr>
-              ${items.slice(-30).map(function(item){//slice -10 shows the last 10 items 
+              ${items.slice(0,20).map(function(item){//slice -10 shows the last 10 items 
                 return`
                 <tr id = "item-list">
                   <td>${item.date}</td>
